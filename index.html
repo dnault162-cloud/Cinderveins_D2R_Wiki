@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinder Veins — D2R Wiki</title>
+  <meta name="description" content="Cinder Veins — a Diablo II: Resurrected total conversion. Brutal, but legible.">
+
+  <!-- Dark themeable base -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+
+  <style>
+    :root {
+      /* Cinder/ember identity */
+      --theme-color: #ff5a1f;
+      --theme-color-secondary: #ffae42;
+
+      --base-font-size: 16px;
+      --base-line-height: 1.65;
+
+      --sidebar-width: 17rem;
+      --sidebar-background: #15110f;
+      --content-max-width: 56em;
+
+      --base-background-color: #0e0c0b;
+      --base-color: #e8e2dc;
+
+      --link-color: #ff7a44;
+      --heading-h1-color: #ff5a1f;
+      --heading-h2-color: #ffae42;
+
+      --search-input-background-color: #1c1714;
+      --code-theme-background: #16120f;
+      --blockquote-border-color: #ff5a1f;
+      --table-cell-border-color: #2a221d;
+    }
+
+    body { background: #0e0c0b; }
+
+    /* sidebar accent for the active link */
+    .sidebar-nav li.active > a {
+      color: var(--theme-color) !important;
+      border-left: 3px solid var(--theme-color);
+      padding-left: 9px;
+    }
+
+    .app-name-link { color: var(--theme-color) !important; font-weight: 700; letter-spacing: .5px; }
+
+    /* tables read nicely on dark */
+    .markdown-section table { display: table; width: 100%; }
+    .markdown-section tr:nth-child(2n) { background: #141029; background: #161210; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading the Veins…</div>
+
+  <script>
+    window.$docsify = {
+      name: '🔥 Cinder Veins',
+      loadSidebar: true,
+      coverpage: true,
+      onlyCover: false,
+      auto2top: true,
+      subMaxLevel: 2,
+      maxLevel: 4,
+      search: {
+        placeholder: 'Search the wiki…',
+        noData: 'Nothing found.',
+        depth: 4
+      },
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true
+      }
+    };
+  </script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Theme engine -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <!-- Full-text search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Copy-to-clipboard on code blocks -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <!-- Prev/Next page footer -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
