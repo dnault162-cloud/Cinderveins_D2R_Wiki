@@ -11,8 +11,10 @@
 - **Classes**
   - [Sorceress](Class-Sorceress.md)
   - [Druid](Class-Druid.md)
-  <!-- Add new class pages here, e.g.: -->
-  <!--   - [Necromancer](Class-Necromancer.md) -->
+  - [Necromancer](Class-Necromancer.md)
+  - [Paladin](Class-Paladin.md)
+  - [Assassin](Class-Assassin.md)
+  <!-- Remaining: Amazon, Barbarian -->
 
 - **Endgame**
   - [GR Rift Portals](Endgame-GR-Portals.md)

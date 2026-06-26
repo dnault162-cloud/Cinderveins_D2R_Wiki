@@ -27,5 +27,5 @@ This wiki is both the **design bible** (while building) and the **player referen
 
 - Built on **D2RLAN** (multiplayer-capable loader, ESR's base).
 - Immunity system **removed**; resistances kept. See [Core Systems](Core-Systems.md).
-- First class revamp: **Sorceress** — fire/ash themed, trinity broken. See [Class: Sorceress](Class-Sorceress.md).
+- **Five classes drafted** (30 skills each): [Sorceress](Class-Sorceress.md), [Druid](Class-Druid.md), [Necromancer](Class-Necromancer.md), [Paladin](Class-Paladin.md), [Assassin](Class-Assassin.md). Amazon & Barbarian remaining. First *built* class: Sorceress.
 - Endgame: custom **GR-style rift portals** gated by keys from specific enemies. See [Endgame](Endgame-GR-Portals.md).
